@@ -1,0 +1,599 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    border: none;
+}
+
+/* header */
+.header{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    Z-index: 101;
+    margin: -10px;
+}
+.child11{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.child11 img{
+    width: 45px;
+    height: 20px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 14px;
+    
+}
+.child11 select{
+    
+    position: relative;
+    margin-right: 200px;
+    margin-top: 14px;
+    background: #000;
+    color: white;
+    border-color: #000;
+}
+.child11 div p{
+    
+    position: relative;
+    margin-left: -120px;
+}
+
+.child12{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    list-style-type: none;
+    position: relative;
+    margin-left: 450px;
+}
+.child12 li a{
+    color: white;
+    text-decoration: none;
+}
+.child12 :nth-child(2){
+    position: relative;
+    margin-left: 10px;
+}
+.child12 :last-child{
+    position: relative;
+    margin-left: -15px;
+}
+.child12 :nth-child(4){
+    position: relative;
+    margin-left: 10px;
+}
+.parent2{
+    display: grid;
+    grid-template-columns: 20% 40% 15% 10% 15%;
+    position: relative;
+    top: 26px;
+}
+.child21 img{
+    width: 70%;
+    margin-top: 20px;
+}
+
+.child22{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    position: relative;
+    margin-left: 30px;
+    
+}
+.child22 li a{
+    text-decoration: none;
+    color: grey;
+}
+.child22 :hover{
+    color: palevioletred;
+    font-size: 15px;
+}
+.child22 :nth-child(2){
+    position: relative;
+    right: 15px;
+}
+.parent2 .child22, .child23, .child24, .child25{
+    position: relative;
+    margin-top: 40px;
+}
+.child23 :last-child{
+position: relative;
+right: 36px;
+    bottom: 4px;
+    color: grey;
+}
+.child23 input{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 5px;
+    
+}
+.child24 :first-child{
+    position: relative;
+    margin-left: 10px;
+}
+.child24 i{
+    font-size: 20px;
+    border: 1px solid rgb(108, 95, 95);
+    border-radius: 50%;
+    padding: 10px;
+    bottom: 5px;
+}
+.child25 button{ 
+    margin-left: 20px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: rgb(11, 113, 239);
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.child25 button a{
+    text-decoration: none;
+    color: white;
+}
+a.child22:hover, a.child22:active {
+    color: red;
+}
+
+/* banner */
+.banner{
+    background-image: url(./assets/hero/h1_hero.jpg);
+    width: 100%;
+    height: 720px;
+    margin-top: 25px;
+}
+.banner img{
+    width: 92.5%;
+    position: relative;
+    margin-left: 70px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.banner div{
+    position: relative;
+    margin-left: 30px;
+}
+.banner div h2{
+    font-family: 'Brush Script MT', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    color: rgb(11, 113, 239) ;
+    padding-top: 30px;
+    position: relative;
+    top: 90px;
+}
+.banner h1{
+    font-family: 'Geneva';
+    font-size: 100px;
+}
+.banner p{
+    font-family: 'Geneva';
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-left: 44px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 60px;
+}
+.banner button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: rgb(11, 113, 239);
+    border-color: rgb(11, 113, 239);
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 85px;
+    right: 230px;
+    
+}
+.banner button a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+/* catogeries */
+
+.cat-child{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-column-gap: 30px;
+}
+
+.cat h2{
+    position: relative;
+    margin-top: 200px;
+    font-family: 'Geneva';
+    font-size: 3rem;
+    text-align: center;
+}
+.cat-text-one{
+    background-image: url(./assets/categori/cat1.jpg);
+    background-size: 100% 270px; 
+    border-radius: 5px;  
+ }
+.cat-text-two{
+    background-image: url(./assets/categori/cat2.jpg);
+    background-size: 100% 270px;   
+ }
+.cat-text-three{
+    background-image: url(./assets/categori/cat3.jpg);
+    background-size: 100% 270px;   
+ }
+
+ .cat-text-one .cat-h3,  button{
+    position: relative;
+    margin-left: 260px;
+}
+ .cat-text-two .cat-h3,  button{
+    position: relative;
+    margin-left: 260px;
+}
+ .cat-text-three .cat-h3,  button{
+    position: relative;
+
+    margin-left: 260px;
+}
+
+.cat-h3{
+    font-family: 'Geneva';
+    font-size: 2rem;
+    position: flex;
+    margin: 0;
+    padding-top: 43px;
+}
+.cat-button  a{
+    text-decoration: none;
+    color: black;
+}
+.cat-button{
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: gold;
+    border-color: gold;
+    font-size: 17px;
+}
+.cat-h4{
+    font-family: 'mistral';
+    color: rgb(0, 115, 255);
+    font-size: 30px;
+    margin-left: 270px;
+    margin-bottom: 70px;
+    position: relative;
+    bottom: 45px;
+}
+/* ///////  products ///////// */
+.product{
+    padding-bottom: 300px;
+}
+.child-product{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 150px;
+}
+.product img :hover{
+    box-shadow: 5px 5px grey;
+}
+.child-product h2{
+    font-family: 'Geneva';
+    font-size: 2.8rem;
+    margin-left: 230px;
+    margin-bottom: -5px;
+    
+}
+.child-product ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style-type: none;
+    color: grey;
+    margin-top: 60px;
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.child-product ul :first-child{ 
+    text-decoration: none;
+    
+}
+.child-product ul :hover a{
+    color: palevioletred;
+    font-size: 15px;
+}
+.child-product ul :last-child{
+    color: grey;
+    margin-left: 20px;
+}
+.product hr{
+    width: 80%; 
+    color: grey; 
+}
+.product-main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.product-main-one{
+    position: relative;
+    bottom: 17px;
+}
+.product-icon :first-child{
+    color: goldenrod;
+}
+.product-icon :nth-child(2){
+    color: goldenrod;
+}
+.product-icon :nth-child(3){
+    color: goldenrod;
+}
+strike{
+    color: red;
+    margin-left: 10px;
+}
+/* /////// card //// */
+
+.card{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    background-image: url(./assets/categori/card.png);
+    height: 580px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+.card :first-child img{
+    position: relative;
+    bottom: 119px;
+   margin-left: 200px;
+}
+.card :nth-child(2) h2{
+ font-family: 'Geneva';
+ font-size: 3.4rem;
+ position: relative;
+    top: 140px;
+    left: 96px;
+}
+.card :nth-child(2) p{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.card :nth-child(2) button{
+    position: relative;
+    right: 160px;
+    top: 150px;
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 30px;
+}
+.card :nth-child(2) button a{
+    text-decoration: none;
+    color: white;
+}
+.card :last-child img{
+    position: relative;
+    top: 350px;
+}
+
+/* ///// collection /// */
+
+.collect{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    top: 130px;
+}
+.collect-one{
+    position: relative;
+    left: 140px;
+}
+.collect-one h2{
+    font-family: 'Geneva';
+    font-size: 3rem;
+}
+.collect-one button{
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: rgb(11, 113, 239);
+    border-radius: 30px;
+    border-color: rgb(11, 113, 239);
+    position: relative;
+    right: 260px;
+    top: 60px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.collect-one img{
+    position: relative;
+    top: 200px;
+}
+.collect-two img{
+    position: relative;
+    left: 100px;
+}
+.collect-three :first-child{
+     display: grid;
+     grid-template-columns: auto auto;
+}
+.collect-three :nth-child(2){
+     display: grid;
+     grid-template-columns: auto auto;
+}
+.collect-three :last-child{
+     display: grid;
+     grid-template-columns: auto auto;
+}
+.collect-three{
+    position: relative;
+    top: 290px;
+}
+.collect-three p{
+    position: relative;
+    left: 120px;
+    top: 51px;
+}
+.collect-three  span p{
+    background-color: rgb(11, 113, 239);
+    width: 55%;
+    height: 56px;
+    border-radius: 5px;
+    color: white;
+    padding: 4px 13px;
+    border-color: white;
+}
+
+
+/* //// offer ///// */
+
+.offer{
+    background-image: url(./assets/collection/latest-offer.png);
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    top: 287px;
+    height: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.offer h2{
+    font-family: 'Geneva';
+    font-size: 3rem;
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+.offer p{
+    position: relative;
+    left: 250px;
+    top: 20px;
+    font-size: 1.3rem;
+}
+.offer input{
+    position: relative;
+    top: 170px;
+    left: 200px;
+    padding: 20px 60px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    border: none;
+}
+.offer button{
+    padding: 20px 50px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    background-color: rgb(11, 113, 239);
+    border-color: rgb(11, 113, 239);
+    position: relative;
+    top: 170px;
+    right: 142px;
+}
+/* //////////// security ////////// */
+
+.security{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    top: 480px;
+    margin-left: 200px;
+}
+.security i{
+    font-size: 3rem;
+}
+.security p{
+    font-size: 1.1rem;
+    color: grey;
+}
+/* gallry */
+
+.gallary{
+    position: relative;
+   margin-top: 700px;
+   margin-left: 20px;
+}
+.gallary :nth-child(2){
+    position: relative;
+    right: 80px;
+}
+.gallary :nth-child(3){
+    position: relative;
+    right: 163px;
+}
+.gallary :nth-child(4){
+    position: relative;
+    right: 242px;
+}
+.gallary :last-child{
+    position: relative;
+    left: 1130px;
+    bottom: 351px;
+}
+
+/* footer */
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 200px;
+    margin-right: 95px;
+    position: relative;
+    bottom: 200px;
+}
+.footer img{
+    width: 50%;
+    position: relative;
+    top: 15px;
+}
+.footer li{
+    list-style-type: none;
+}
+.footer a{
+    color: #867373;
+}
+.footer a:hover{
+    color: palevioletred;
+    font-size: 14px;
+    font-style: inherit;
+}
+.footer h2{
+    position: relative;
+    left: 35px;
+}
+.footer :first-child p{
+    color: #867373;
+    margin-top: 40px;
+}
+.footer-hr{
+    position: relative;
+    bottom: 140px;
+    width: 80%;
+}
+.end{
+    text-align: center;
+    position: relative;
+    bottom: 125px;
+}
+.end i{
+    color:  rgb(11, 113, 239);
+}
+
+
+
+
+
